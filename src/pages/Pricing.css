@@ -1,0 +1,63 @@
+/* Payment styling */
+.payment-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Layout using CSS Grid (2 columns) */
+.payment-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 2 columns: labels (1fr) and inputs (2fr) */
+    gap: 15px;
+    align-items: center;
+}
+
+/* Labels Styling */
+.payment-form label {
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Input Fields Styling */
+.payment-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Gender Section (Ensures radio buttons align in one row) */
+.gender-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Buttons Layout */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e64a19;
+}

@@ -1,0 +1,99 @@
+/* About CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .about-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .owner-message {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  .builder-photo {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .builder-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .testimonials {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+    color: #444;
+  }
+  
+  .testimonial-card h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .testimonial-card span {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .testimonial-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .testimonial-card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .builder-img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
